@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- bootstrap5-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+<section>
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-5">
+                <div class="img">
+                    <img src="images/mac.png" alt="">
+                </div>
+             
+            </div>
+            <div class="col-lg-7">
+                <!-- header -->
+                <div class="mac-header">
+                    <h1>Customize your Blue 24‑inch iMac with Apple M1 chip.</h1>
+                    <p>Configure yours on the next step. Apple M1 chip. Designed for Mac, M1 delivers faster CPU performance and faster graphics.Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine.</p>
+                </div>
+                <!-- memory -->
+                <div class="memory mb-3">
+                    <h4>Memory</h4>
+                    <input id="memory-8gb" class ="rounded" type="text" placeholder="8GB unified memory">
+                    <input id="memory-16gb" class ="rounded" type="text" placeholder="16GB unified memory">
+                </div>
+                <!-- storage -->
+                <div class="storage mb-3">
+                    <h4>Storage</h4>
+                    <div class="storage-input ">  
+                        <input id="storage-1"  class ="rounded" type="text" placeholder="256GB SSD storage">
+                        <input id="storage-2"  class ="rounded" type="text" placeholder="512GB SSD storage">
+                        <input id="storage-3"  class ="rounded" type="text" placeholder="1TB SSD storage">
+                    </div>
+                </div>
+                    <!-- delivery -->
+                    <div class="delivery mb-3">
+                        <h4>Choose your delevery option</h4>
+                        <input id="delivery-free" class ="rounded" type="text" placeholder="Friday, August 25 Free Prime Delevery">
+                        <input id="delivery-cost"  class ="rounded" type="text" placeholder="Friday, August 21 Delevery charge $20">
+                    </div>
+                    <!-- pricing -->
+                    <div class="col-lg-6">
+                        <table class="table">     
+                            <tbody>
+                              <tr>
+                                <td colspan="2">Best Price</td>
+                                <td>$ <span id="price">1299</span></td>
+                              </tr>
+    
+                              <tr>
+                                <td colspan="2">Extra Memory Cost</td>
+                                <td>$ <span  id="memory-input1">0</span></td>
+                              </tr>
+    
+                              <tr> 
+                               <td colspan="2">Extra Shortage Cost</td>
+                                <td>$ <span id="storage-cost">0</span></td>
+                              </tr>
+                              <tr> 
+                               <td colspan="2">Delevery Charge</td>
+                                <td>$ <span id="delivery-charge">0</span></td>
+                              </tr>
+                              <tr> 
+                               <td colspan="2">Total Price</td>
+                                <td>$ <span id="total-price">1299</span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                   <!-- promo-code -->
+                   <div class="promo pb-3">
+                    <p>Add Promo code</p>
+                    <input class ="rounded" type="text">  
+                    <button class ="rounded px-2 " type="submit">Apply</button>
+                   </div>
+            </div>
+           <hr>
+           <h2 class="text-center">Total: $<span>1299</span></h2>
+
+        </div>
+    </div>
+</section>
+    </main>
+
+
+
+    <!-- js-here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/main.js "></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.img img {
+	width: 100%;
+}
+h4 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+input:hover {
+	background: #D8EFFF;
+	color: #222;
+	outline: 0;
+	cursor: pointer;
+}
+.delivery input {
+	width: 49%;
+}
+button {
+	background: #DC3545;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+h2 {
+	font-weight: 600;
+}
